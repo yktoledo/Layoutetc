@@ -14,59 +14,9 @@
     tools:showIn="@layout/activity_main"
     android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="84dp"
-            android:layout_weight="3"
-            >
-
-            <Button
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="match_parent"
-                android:text="A"
-                android:id="@+id/button" />
-
-            <Button
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="match_parent"
-                android:text="B"
-                android:id="@+id/button5" />
-
-            <Button
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="match_parent"
-                android:text="B"
-                android:id="@+id/button4" />
-        </LinearLayout>
-
-       <LinearLayout
-           android:layout_width="0dp"
-           android:layout_height="match_parent"
-           android:layout_weight="1"
-           android:orientation="vertical">
-           <Button
-               android:layout_width="match_parent"
-               android:layout_weight="1"
-               android:layout_height="match_parent"
-               android:text="B"
-
-               android:id="@+id/button5" />
-
-           <Button
-               android:layout_width="match_parent"
-               android:layout_weight="1"
-               android:layout_height="match_parent"
-               android:text="B"
-               android:id="@+id/button4" />
-       </LinearLayout>
-    </LinearLayout>
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="go"
+        android:id="@+id/imagebtn"/>
 </LinearLayout>
